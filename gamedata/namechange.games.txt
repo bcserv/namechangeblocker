@@ -1,0 +1,21 @@
+"Games"	
+{
+	"cstrike"
+	{	
+		"Signatures"
+		{
+			"SetPlayerName"
+			{
+				"library"		"server"
+				"windows"		"\x8B\x44\x2A\x2A\x85\x2A\x74\x2A\x2A\x2A\x50\x81\xC1\x2A\x2A\x2A\x2A\x51"
+				"linux"			"@_ZN11CBasePlayer13SetPlayerNameEPKc"
+			}
+			"ChangeName"
+			{
+				"library"		"server"
+				"windows"		"\x55\x8B\xEC\x83\xEC\x2A\x56\x89\x2A\x2A\x6A\x2A\x8B\x2A\x2A\x50\x8D\x2A\x2A\x51"
+				"linux"			"@_ZN9CCSPlayer10ChangeNameEPKc"
+			}
+		}
+	}	
+}
